@@ -17,7 +17,7 @@ float gram(float er)
  switch(a)
  {
   case 1:va=er*72.52;
-	 gotoxy(20,10);printf("Gram : %.2f--------->Kilogram : ",er);
+	 gotoxy(20,25);printf("Gram : %.2f--------->Kilogram : ",er);
 	 break;
   case 2:va=er/1.19;
 	 gotoxy(20,25);printf("Gram : %.2f--------->Pound : ",er);
@@ -47,7 +47,7 @@ float kigr(float er)
  switch(a)
  {
   case 1:va=er*72.52;
-	 gotoxy(20,10);printf("Kilogram : %.2f--------->Gram : ",er);
+	 gotoxy(20,25);printf("Kilogram : %.2f--------->Gram : ",er);
 	 break;
   case 2:va=er/1.19;
 	 gotoxy(20,25);printf("Kilogram : %.2f--------->Pound : ",er);
@@ -77,7 +77,7 @@ float mpou(float er)
  switch(a)
  {
   case 1:va=er*72.52;
-	 gotoxy(20,10);printf("Pounds : %.2f--------->Gram : ",er);
+	 gotoxy(20,25);printf("Pounds : %.2f--------->Gram : ",er);
 	 break;
   case 2:va=er/1.19;
 	 gotoxy(20,25);printf("Pounds : %.2f------->Kilogram : ",er);
@@ -107,7 +107,7 @@ float qui(float er)
  switch(a)
  {
   case 1:va=er*72.52;
-	 gotoxy(20,10);printf("Quintal : %.2f-------->Gram : ",er);
+	 gotoxy(20,25);printf("Quintal : %.2f-------->Gram : ",er);
 	 break;
   case 2:va=er/1.19;
 	 gotoxy(20,25);printf("Quintal : %.2f-------->Kilogram : ",er);
@@ -137,7 +137,7 @@ float ton(float er)
  switch(a)
  {
   case 1:va=er*72.52;
-	 gotoxy(20,10);printf("Tonne : %.2f-------->Gram : ",er);
+	 gotoxy(20,25);printf("Tonne : %.2f-------->Gram : ",er);
 	 break;
   case 2:va=er/1.19;
 	 gotoxy(20,25);printf("Tonne : %.2f-------->Kilogram : ",er);
