@@ -2,7 +2,7 @@
 int a;
 float va;
 
-//Convert Centimeter values to corresponding values
+//Convert Centimeter values to the corresponding values
 float centi(float er)
 {
  clrscr();
