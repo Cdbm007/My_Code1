@@ -12,6 +12,7 @@ int po;
 float re,ar;
 int op;
 
+//main function
 void main()
 {
  do
