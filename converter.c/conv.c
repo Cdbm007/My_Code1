@@ -37,7 +37,7 @@ void main()
  while(1);
 }
 
-//Converting the length values
+//Call the corresponding length functions
 void len()
 {
 	   clrscr();
@@ -71,7 +71,7 @@ void len()
 	   getch();
 }
 
-//Converting the mass values
+//Call the corresponding mass functions
 void mass()
 {
 	   clrscr();
@@ -105,7 +105,7 @@ void mass()
 	   getch();
 }
 
-//Converting the timee values
+//Call the corresponding time functions
 void timee()
 {
 	   clrscr();
