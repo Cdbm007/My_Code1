@@ -16,16 +16,16 @@ float gram(float er)
  clrscr();
  switch(a)
  {
-  case 1:va=er*72.52;
+  case 1:va=er/1000.0;
 	 gotoxy(20,25);printf("Gram : %.2f--------->Kilogram : ",er);
 	 break;
-  case 2:va=er/1.19;
+  case 2:va=er/454.0;
 	 gotoxy(20,25);printf("Gram : %.2f--------->Pound : ",er);
 	 break;
-  case 3:va=er/1.39;
+  case 3:va=er/1e+5;
 	 gotoxy(20,25);printf("Gram : %.2f--------->Quintal : ",er);
 	 break;
-  case 4:va=er*74.18;
+  case 4:va=er*1e+6;
 	 gotoxy(20,25);printf("Gram : %.2f--------->Tonne : ",er);
 	 break;
  }
@@ -46,16 +46,16 @@ float kigr(float er)
  clrscr();
  switch(a)
  {
-  case 1:va=er*72.52;
+  case 1:va=er*1000.0;
 	 gotoxy(20,25);printf("Kilogram : %.2f--------->Gram : ",er);
 	 break;
-  case 2:va=er/1.19;
+  case 2:va=er*2.205;
 	 gotoxy(20,25);printf("Kilogram : %.2f--------->Pound : ",er);
 	 break;
-  case 3:va=er/1.39;
+  case 3:va=er/100.0;
 	 gotoxy(20,25);printf("Kilogram : %.2f--------->Quintal : ",er);
 	 break;
-  case 4:va=er*74.18;
+  case 4:va=er/1000.0;
 	 gotoxy(20,25);printf("Kilogram : %.2f--------->Tonne : ",er);
 	 break;
  }
@@ -76,16 +76,16 @@ float mpou(float er)
  clrscr();
  switch(a)
  {
-  case 1:va=er*72.52;
+  case 1:va=er*454.0;
 	 gotoxy(20,25);printf("Pounds : %.2f--------->Gram : ",er);
 	 break;
-  case 2:va=er/1.19;
+  case 2:va=er/2.205;
 	 gotoxy(20,25);printf("Pounds : %.2f------->Kilogram : ",er);
 	 break;
-  case 3:va=er/1.39;
+  case 3:va=er/220.0;
 	 gotoxy(20,25);printf("Pounds : %.2f--------->Quintal : ",er);
 	 break;
-  case 4:va=er*74.18;
+  case 4:va=er/2205.0;
 	 gotoxy(20,25);printf("Pounds : %.2f--------->Tonne : ",er);
 	 break;
  }
@@ -106,16 +106,16 @@ float qui(float er)
  clrscr();
  switch(a)
  {
-  case 1:va=er*72.52;
+  case 1:va=er*1e+5;
 	 gotoxy(20,25);printf("Quintal : %.2f-------->Gram : ",er);
 	 break;
-  case 2:va=er/1.19;
+  case 2:va=er*100.0;
 	 gotoxy(20,25);printf("Quintal : %.2f-------->Kilogram : ",er);
 	 break;
-  case 3:va=er/1.39;
+  case 3:va=er*220.0;
 	 gotoxy(20,25);printf("Quintal : %.2f-------->Pound : ",er);
 	 break;
-  case 4:va=er*74.18;
+  case 4:va=er/10.0;
 	 gotoxy(20,25);printf("Quintal : %.2f-------->Tonne : ",er);
 	 break;
  }
@@ -136,16 +136,16 @@ float ton(float er)
  clrscr();
  switch(a)
  {
-  case 1:va=er*72.52;
+  case 1:va=er*1e+6;
 	 gotoxy(20,25);printf("Tonne : %.2f-------->Gram : ",er);
 	 break;
-  case 2:va=er/1.19;
+  case 2:va=er*1000.0;
 	 gotoxy(20,25);printf("Tonne : %.2f-------->Kilogram : ",er);
 	 break;
-  case 3:va=er/1.39;
+  case 3:va=er*2205.0;
 	 gotoxy(20,25);printf("Tonne : %.2f-------->Pound : ",er);
 	 break;
-  case 4:va=er*74.18;
+  case 4:va=er*10.0;
 	 gotoxy(20,25);printf("Tonne : %.2f-------->Quintal : ",er);
 	 break;
  }
