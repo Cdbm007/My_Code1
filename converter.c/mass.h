@@ -1,7 +1,6 @@
 #include "cofop.h"
 int a;
 float va;
-
 //Convert Gram values to corresponding values
 float gram(float er)
 {
